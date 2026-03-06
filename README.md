@@ -1,11 +1,11 @@
-**Notes App – Full Stack CRUD Application
+**Notes App – Full Stack CRUD Application**
 
 A simple full-stack Notes Application that demonstrates how to build and connect a frontend interface with a backend REST API.
 The application allows users to create, read, update, and delete notes while storing them on the server.
 
 This project focuses on understanding the fundamentals of REST API development, CRUD operations, and frontend–backend integration.
 
-**Project Overview
+**Project Overview**
 
 This application enables users to manage personal notes through a web interface. Users can:
 
@@ -16,7 +16,7 @@ This application enables users to manage personal notes through a web interface.
 
 The frontend communicates with the backend using REST API endpoints. The backend handles data storage and processing.
 
-**Features
+**Features**
 
 - Create notes
 - View all notes
@@ -26,7 +26,7 @@ The frontend communicates with the backend using REST API endpoints. The backend
 - Frontend and backend integration
 - Clean modular code structure
 
-**Tech Stack
+**Tech Stack**
 Frontend
 
 - React.js
@@ -42,7 +42,7 @@ Backend
 - REST APIs
 - JSON data exchange
 
-**Project Structure
+**Project Structure**
 
 Get All Notes
 GET /notes
@@ -56,7 +56,7 @@ Delete Note
 DELETE /notes/:id
 Removes a note from the database.
 
-**How It Works
+**How It Works**
 
 The frontend UI allows users to interact with notes.
 When a user performs an action (create, update, delete), the frontend sends an HTTP request to the backend API.
@@ -65,7 +65,7 @@ The server returns a response to the frontend.
 The UI updates to reflect the latest state of the notes.
 
 
-**Learning Outcomes
+**Learning Outcomes**
 
 This project helps understand:
 
